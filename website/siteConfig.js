@@ -53,8 +53,9 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#6eab31',
-    secondaryColor: '#4d7722',
+    primaryColor: '#534588',
+    secondaryColor: '#a25eb5',
+    terciaryColor: '#65b2e8',
   },
 
   /* Custom fonts for website */
@@ -72,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} CIM (Cloud Information Model)`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -88,8 +89,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+ // ogImage: 'img/undraw_online.svg',
+ // twitterImage: 'img/undraw_tweetstorm.svg',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
