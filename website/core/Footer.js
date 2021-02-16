@@ -25,22 +25,21 @@ class Footer extends React.Component {
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="66"
-                height="58"
+                width="166"
+                height="508"
               />
             )}
           </a>
+         
           <div>
-            <h5>Documentoss</h5>
-            <a href={this.docUrl('docCIM.html')}>Docmuneto 1</a>
-            <a href={this.docUrl('doc2.html')}>Guides (or other categories)</a>
-            <a href={this.docUrl('doc3.html')}>API Reference (or other categories)</a>
+            <h5>DOCUMENTOS</h5>
+            <a href={this.docUrl('doc2.html')}>Documento 1</a>
+            <a href={this.docUrl('doc2.html')}>Documento 2</a>
+            <a href={this.docUrl('doc2.html')}>Documento 3</a>
           </div>
-          
-          
 
           <div>
-            <h5>Communidad</h5>
+            <h5>COMUNIDAD</h5>
             <a
               href="https://stackoverflow.com/questions/tagged/"
               target="_blank"
@@ -63,7 +62,7 @@ class Footer extends React.Component {
           
           
           <div>
-            <h5>Mas</h5>
+            <h5>MAS</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a 
               href="https://github.com/Darrencillo/cimtest.git"
@@ -77,30 +76,6 @@ class Footer extends React.Component {
                 height="35"
               />
             </a>
-            
-
-            {this.props.config.twitterUsername && (
-              <div className="social">
-                <a
-                  href={`https://twitter.com/${this.props.config.twitterUsername}`}
-                  className="twitter-follow-button">
-                  Follow @{this.props.config.twitterUsername}
-                </a>
-              </div>
-            )}
-            {this.props.config.facebookAppId && (
-              <div className="social">
-                <div
-                  className="fb-like"
-                  data-href={this.props.config.url}
-                  data-colorscheme="dark"
-                  data-layout="standard"
-                  data-share="true"
-                  data-width="225"
-                  data-show-faces="false"
-                />
-              </div>
-            )}
           </div>
         </section>
 
