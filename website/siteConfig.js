@@ -11,23 +11,25 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {page: 'index', label: 'Inicio'},
-    {page: 'help', label: 'Subjects Area'},
-    {href: 'https://github.com/Darrencillo/cimtest.git', label: 'GitHub'},
+    //{page: 'SubjectAreas', label: 'Prueba'},
+    //{page: 'help', label: 'Prueba2'},
+    //{page: 'SA', label: 'Prueba3'},
+    {page: 'SubjectAreas1', label: 'Subjects Area'},
+    {href: 'https://github.com/Darrencillo/cimtest.git', label: 'GitHub' },
+    
    
   ],
 
   
   /* path to images for header/footer */
   headerIcon: 'img/logo_cim.svg',
-  //footerIcon: 'img/logo_cim.svg',
   favicon: 'img/logo_cim.svg',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#534588',
-    //secondaryColor: '#a25eb5',
-    secondaryColor: '#65b2e8',
-    terciaryColor: '#65b2e8',
+    //primaryColor: '#534535',
+    //secondaryColor: '#65b2e8',
+    
   },
 
  

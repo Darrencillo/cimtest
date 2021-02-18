@@ -1,0 +1,304 @@
+{
+    "id": "http://www. /cim_library_schema.json",
+    "publisher": {
+        "name": "Cloud Information Model",
+        "abbreviation": "CIM",
+        "schemaVersion": "1.0",
+        "url": "https://cloudinformationmodel.org/",
+        "about": "About CIM",
+        "email": "info@cloudinformationmodel.org"
+    },
+    "domains": [
+     {
+        "id": "produce",
+        "name": "Produce",
+        "description": "Bla, bla",
+        "subjectAreas" : [
+            {
+                "id":"product",
+                "name": "Product",
+                "description": "Bla, bla",
+                "versions" : [
+                    {
+                        "id": "product-v1_0",
+                        "version": "1.0",
+                        "versionDate" : {
+                            "year": "2020",
+                            "month": "10",
+                            "day": "02"
+                        },
+                        "updateDate": {
+                            "year": "2020",
+                            "month": "10"
+                        },
+                        "diagramURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/Product/diagram.png",
+                        "descriptionURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/Product/about.jsonld",
+                        "gitHubURL": "https://github.com/cloudinformationmodel/cloudinformationmodel/tree/master/src/subjectAreas/Product",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    },
+                                        {
+                        "id": "product-v1_1",
+                        "version": "1.1",
+                        "versionDate" : {
+                            "year": "",
+                            "month": "",
+                            "day": ""
+                        },
+                        "updateDate": {
+                            "year": "",
+                            "month": ""
+                        },
+                        "diagramURL": "https://",
+                        "descriptionURL": "https://",
+                        "gitHubURL": "https://",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    }
+                ]
+            }
+        ]
+        },
+     {
+        "id": "market",
+        "name": "Market",
+        "description": "Bla, bla",
+        "subjectAreas" : [
+            {
+                "id":"party",
+                "name": "Party",
+                "description": "Bla, bla",
+                "versions" : [
+                    {
+                        "id": "party-v1_0",
+                        "version": "1.0",
+                        "versionDate" : {
+                            "year": "2020",
+                            "month": "10",
+                            "day": "02"
+                        },
+                        "updateDate": {
+                            "year": "2020",
+                            "month": "10"
+                        },
+                        "diagramURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/Party/diagram.png",
+                        "descriptionURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/Party/about.jsonld",
+                        "gitHubURL": "https://github.com/cloudinformationmodel/cloudinformationmodel/tree/master/src/subjectAreas/Party",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    },
+                                        {
+                        "id": "party-v1_1",
+                        "version": "1.1",
+                        "versionDate" : {
+                            "year": "",
+                            "month": "",
+                            "day": ""
+                        },
+                        "updateDate": {
+                            "year": "",
+                            "month": ""
+                        },
+                        "diagramURL": "https://",
+                        "descriptionURL": "https://",
+                        "gitHubURL": "https://",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    }
+                ]
+            }
+        ]
+        },
+     {
+        "id": "sell",
+        "name": "Sell",
+        "description": "Bla, bla",
+        "subjectAreas" : [
+            {
+                "id":"sales-order",
+                "name": "Sales Order",
+                "description": "Bla, bla",
+                "versions" : [
+                    {
+                        "id": "sales-order-v1_0",
+                        "version": "1.0",
+                        "versionDate" : {
+                            "year": "2020",
+                            "month": "10",
+                            "day": "02"
+                        },
+                        "updateDate": {
+                            "year": "2020",
+                            "month": "10"
+                        },
+                        "diagramURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/SalesOrder/diagram.png",
+                        "descriptionURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/SalesOrder/about.jsonld",
+                        "gitHubURL": "https://github.com/cloudinformationmodel/cloudinformationmodel/tree/master/src/subjectAreas/SalesOrder",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    },
+                                        {
+                        "id": "sales-order-v1_1",
+                        "version": "1.1",
+                        "versionDate" : {
+                            "year": "",
+                            "month": "",
+                            "day": ""
+                        },
+                        "updateDate": {
+                            "year": "",
+                            "month": ""
+                        },
+                        "diagramURL": "https://",
+                        "descriptionURL": "https://",
+                        "gitHubURL": "https://",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    }
+                ]
+            }
+        ]
+        },
+     {
+        "id": "service",
+        "name": "Service",
+        "description": "Bla, bla",
+        "subjectAreas" : [
+            {
+                "id":"service",
+                "name": "Case",
+                "description": "Bla, bla",
+                "versions" : [
+                    {
+                        "id": "service-v1_0",
+                        "version": "1.0",
+                        "versionDate" : {
+                            "year": "2020",
+                            "month": "10",
+                            "day": "02"
+                        },
+                        "updateDate": {
+                            "year": "2020",
+                            "month": "10"
+                        },
+                        "diagramURL": "https://raw.",
+                        "descriptionURL": "https://raw.",
+                        "gitHubURL": "https://",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    }
+                ]
+            }
+        ]
+        },
+     {
+        "id": "fulfill",
+        "name": "Fulfill",
+        "description": "Bla, bla",
+        "subjectAreas" : [
+            {
+                "id":"shipment",
+                "name": "Shipment",
+                "description": "Bla, bla",
+                "versions" : [
+                    {
+                        "id": "shipment-v1_0",
+                        "version": "1.0",
+                        "versionDate" : {
+                            "year": "2020",
+                            "month": "10",
+                            "day": "02"
+                        },
+                        "updateDate": {
+                            "year": "2020",
+                            "month": "10"
+                        },
+                        "diagramURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/Shipment/diagram.png",
+                        "descriptionURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/Shipment/about.jsonld",
+                        "gitHubURL": "https://github.com/cloudinformationmodel/cloudinformationmodel/tree/master/src/subjectAreas/Shipment",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    }
+                ]
+            }
+        ]
+        },
+     {
+        "id": "finance",
+        "name": "Finance",
+        "description": "Bla, bla",
+        "subjectAreas" : [
+            {
+                "id":"payment-method",
+                "name": "Payment Method",
+                "description": "Bla, bla",
+                "versions" : [
+                    {
+                        "id": "payment-method-v1_0",
+                        "version": "1.0",
+                        "versionDate" : {
+                            "year": "2020",
+                            "month": "10",
+                            "day": "02"
+                        },
+                        "updateDate": {
+                            "year": "2020",
+                            "month": "10"
+                        },
+                        "diagramURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/PaymentMethod/diagram.png",
+                        "descriptionURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/PaymentMethod/about.jsonld",
+                        "gitHubURL": "https://github.com/cloudinformationmodel/cloudinformationmodel/tree/master/src/subjectAreas/PaymentMethod",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id":"payment",
+                "name": "Payment",
+                "description": "Bla, bla",
+                "versions" : [
+                    {
+                        "id": "payment-v1_0",
+                        "version": "1.0",
+                        "versionDate" : {
+                            "year": "2020",
+                            "month": "10",
+                            "day": "02"
+                        },
+                        "updateDate": {
+                            "year": "2020",
+                            "month": "10"
+                        },
+                        "diagramURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/Payment/diagram.png",
+                        "descriptionURL": "https://raw.githubusercontent.com/cloudinformationmodel/cloudinformationmodel/v0.1.2/src/subjectAreas/Payment/about.jsonld",
+                        "gitHubURL": "https://github.com/cloudinformationmodel/cloudinformationmodel/tree/master/src/subjectAreas/Payment",
+                        "tags": [
+                            "#tag1",
+                            "#tag2"
+                        ]
+                    }
+                ]
+            }
+        ]
+        }
+     ]
+}

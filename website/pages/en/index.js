@@ -103,7 +103,7 @@ class Index extends React.Component {
         {[
           {
             content:'En esta Cabecera va alguna información sobre Cloud Information Model.',
-            image: `${baseUrl}img/cabecera1.jpg`,
+            image: `${baseUrl}img/CIM-GitHub-Pages-Home.svg`,
             imageAlign: 'right',
             title: 'Alguna informacion sobre CIM',
           },
@@ -162,8 +162,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           
-          <Cab_Informacion />
-          <Cab_Descripcion />
+         
           
         </div>
       </div>
